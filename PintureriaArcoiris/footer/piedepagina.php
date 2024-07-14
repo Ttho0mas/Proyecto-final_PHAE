@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo-p.css">
-    <link rel="icon" href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
+    <link rel="icon" href="\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
     <title>Pie de pagina</title>
 </head>
 <body>
@@ -12,17 +12,17 @@
     <div class="footer-contenido">
         <div class="cont-logo">
             <a href="#">
-                <img class="logo" src="\PHAE\PintureriaArcoiris\logo-PIAR.png" alt="Pintureria Arcoiris" >
+                <img class="logo" src="\PintureriaArcoiris\logo-PIAR.png" alt="Pintureria Arcoiris" >
             </a>
             
             <br>
             <div class="social-media">
             
                 <a href="#" class="social-link" aria-label="Facebook">
-                    <img src="\PHAE\PintureriaArcoiris\iconos\facebook.png" alt="Facebook">
+                    <img src="iconos\facebook.png" alt="Facebook">
                 </a>
                 <a href="#" class="social-link" aria-label="Instagram">
-                    <img src="\PHAE\PintureriaArcoiris\iconos\instagram.png" alt="Instagram">
+                    <img src="iconos\instagram.png" alt="Instagram">
                 </a>
                 
             </div>
@@ -32,30 +32,30 @@
 
             <div class="footer-seccion">
                 <h3 class="titulo-seccion">Acerca de</h3>
-                <span class="footer-info"><img  class="icono" src="\PHAE\PintureriaArcoiris\iconos\ubicacion.png" alt="icono ubicacion">Salto, Uruguay 2297</span>
-                <span class="footer-info"><img  class="icono" src="\PHAE\PintureriaArcoiris\iconos\horarios.png" alt="icono reloj">Lunes a Viernes 8:00 <br>a 18:30 hs</span>
-                <span class="footer-info"><img class="icono" src="\PHAE\PintureriaArcoiris\iconos\acerca-de.png" alt="icono informacion" ><a href="\ProyectoPintureria\contenido_empresa\contenido.php" class="footer-link"> Empresa</a></span>
+                <span class="footer-info"><img  class="icono" src="iconos\ubicacion.png" alt="icono ubicacion">Salto, Uruguay 2297</span>
+                <span class="footer-info"><img  class="icono" src="iconos\horarios.png" alt="icono reloj">Lunes a Viernes 8:00 <br>a 18:30 hs</span>
+                <span class="footer-info"><img class="icono" src="iconos\acerca-de.png" alt="icono informacion" ><a href="\ProyectoPintureria\contenido_empresa\contenido.php" class="footer-link"> Empresa</a></span>
             </div>
 
             <div class="footer-seccion">
                 <h3 class="titulo-seccion">Contacto</h3>
-                <span class="footer-info"><img   class="icono" src="\PHAE\PintureriaArcoiris\iconos\llamada.png" alt="icono telefono" >*(+598)...*</p></span>
-                <span class="footer-info"><img  class="icono" src="\PHAE\PintureriaArcoiris\iconos\correo-electronico.png" alt="icono correo">*Correo electrónico*</span>
+                <span class="footer-info"><img   class="icono" src="iconos\llamada.png" alt="icono telefono" >*(+598)...*</p></span>
+                <span class="footer-info"><img  class="icono" src="iconos\correo-electronico.png" alt="icono correo">*Correo electrónico*</span>
                 
             </div>
 
             <div class="footer-seccion">
                 <h3 class="titulo-seccion">Productos</h3>
-                <a href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\categorias-productos\pinturas.php" class="footer-link">Pinturas</a><br>
-                <a href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\categorias-productos\accesorios.php" class="footer-link">Accesorios</a><br>
-                <a href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\categorias-productos\herramientas.php" class="footer-link">Herramientas </a><br>
+                <a href="\PintureriaArcoiris\categorias-productos\pinturas.php" class="footer-link">Pinturas</a><br>
+                <a href="\PintureriaArcoiris\categorias-productos\accesorios.php" class="footer-link">Accesorios</a><br>
+                <a href="\PintureriaArcoiris\categorias-productos\herramientas.php" class="footer-link">Herramientas </a><br>
             </div>
 
             <div class="footer-seccion">
                 <h3 class="titulo-seccion">Medios de pago</h3>
                 <div class="img-cont">
-                    <img src="\PHAE\PintureriaArcoiris\iconos\visa.png" alt="Tarjeta visa">
-                    <img src="\PHAE\PintureriaArcoiris\iconos\mastercard.png" alt="Tarjeta mastercard" >
+                    <img src="\PintureriaArcoiris\iconos\visa.png" alt="Tarjeta visa">
+                    <img src="\PintureriaArcoiris\iconos\mastercard.png" alt="Tarjeta mastercard" >
                 </div>
                
             </div>
