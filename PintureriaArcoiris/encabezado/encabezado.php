@@ -7,7 +7,7 @@
     <title>Encabezado</title>
     <link rel="stylesheet" href="estilo-e.css">
 
-    <link rel="icon" href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
+    <link rel="icon" href="\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
    
 </head>
 
@@ -15,7 +15,7 @@
     <header>
         <div class="cont-header">
             <div class="logo">
-                <img class="logo" src="\PHAE\PintureriaArcoiris\logo-PIAR.png" alt="Pintureria Arcoiris">
+                <img class="logo" src="\PintureriaArcoiris\logo-PIAR.png" alt="Pintureria Arcoiris">
             </div>
 
             <nav>
@@ -78,20 +78,20 @@
             <div class="barra-busqueda">
                 <input type="text" placeholder="Buscar...">
                 <button type="submit">
-                    <img src="\PHAE\PintureriaArcoiris\iconos\busqueda.png" alt="Icono de búsqueda">
+                    <img src="\PintureriaArcoiris\iconos\busqueda.png" alt="Icono de búsqueda">
                 </button>
             </div>
             <nav>
                 <ul>
                     <li><a id="Ausuarios" href="/ProyectoPintureria/login-registro/login.php">
-                            <div class="iconos"> <img src="\PHAE\PintureriaArcoiris\iconos\usuario-de-perfil.png" alt="Icono de usuario"></div>
+                            <div class="iconos"> <img src="\PintureriaArcoiris\iconos\usuario-de-perfil.png" alt="Icono de usuario"></div>
                         </a>
 
                         <div class="div-subcategoria-usuarios">
                             <ul>
-                                <li> <a id="Aopcion" href="/PHAE/PintureriaArcoiris/login-registro/login.php">Iniciar sesion</a></li>
+                                <li> <a id="Aopcion" href="/PintureriaArcoiris/login-registro/login.php">Iniciar sesion</a></li>
                                 <li> <a id="Aopcion" href="#">Cerrar sesion</a></li>
-                                <li> <a id="Aopcion" href="/PHAE/PintureriaArcoiris/login-registro/registro.php">Registrarse</a></li>
+                                <li> <a id="Aopcion" href="/PintureriaArcoiris/login-registro/registro.php">Registrarse</a></li>
 
                             </ul>
                         </div>
