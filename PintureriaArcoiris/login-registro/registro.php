@@ -32,7 +32,7 @@
             <label for="password">Contraseña:</label>
             <div class="password-cont">
             <input type="password" id="password" name="password" required>
-            <span id='ver'><img src="/PHAE/PintureriaArcoiris/iconos/ver.png" alt="icono ojo"></span>
+            <span id='ver'><img src="/PintureriaArcoiris/iconos/ver.png" alt="icono ojo"></span>
             </div>
             
             <button type="submit">REGISTRARSE</button>
