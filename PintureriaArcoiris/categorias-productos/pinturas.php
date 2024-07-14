@@ -1,5 +1,5 @@
 <?php  
- include 'C:\xampp\htdocs\PHAE\PintureriaArcoiris\encabezado\encabezado.php';
+ include '\PintureriaArcoiris\encabezado\encabezado.php';
 
 ?>
 <!DOCTYPE html>
@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinturas</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="\PHAE\PintureriaArcoiris\encabezado\estilo-e.css">
-    <script src="\PHAE\PintureriaArcoiris\encabezado\scripts.js"></script>
-    <link rel="stylesheet" href="\PHAE\PintureriaArcoiris\footer\estilo-p.css">
+    <link rel="stylesheet" href="\PintureriaArcoiris\encabezado\estilo-e.css">
+    <script src="\PintureriaArcoiris\encabezado\scripts.js"></script>
+    <link rel="stylesheet" href="\PintureriaArcoiris\footer\estilo-p.css">
 
-    <link rel="icon" href="C:\xampp\htdocs\PHAE\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
+    <link rel="icon" href="\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
 </head>
 <body>
     <div class="categorias">
@@ -85,5 +85,5 @@
 </body>
 </html>
 <?php  
- include 'C:\xampp\htdocs\PHAE\PintureriaArcoiris\footer\piedepagina.php';
+ include '\PintureriaArcoiris\footer\piedepagina.php';
 ?>
