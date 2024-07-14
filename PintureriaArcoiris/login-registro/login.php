@@ -18,7 +18,7 @@
     $coincidencias = mysqli_num_rows($consulta);
 
     if($coincidencias == 1){ //$coincidencias == 1
-        header('Location:/PHAE/PintureriaArcoiris/index.php');
+        header('Location:/PintureriaArcoiris/index.php');
     }
 ?>
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
             <label for="password">Contraseña:</label>
             <div class="password-cont">
             <input type="password" id="password" name="password" required>
-            <span id='ver'><img src="/PHAE/PintureriaArcoiris/iconos/ver.png" alt="icono ojo"></span>
+            <span id='ver'><img src="/PintureriaArcoiris/iconos/ver.png" alt="icono ojo"></span>
             </div>
 
 
