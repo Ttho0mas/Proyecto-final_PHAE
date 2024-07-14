@@ -1,5 +1,5 @@
 <?php  
-  include 'C:\xampp\htdocs\PHAE\PintureriaArcoiris\encabezado\encabezado.php';
+  include '\PintureriaArcoiris\encabezado\encabezado.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
