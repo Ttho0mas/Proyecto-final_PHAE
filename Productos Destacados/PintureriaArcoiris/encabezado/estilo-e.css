@@ -1,0 +1,188 @@
+.cont-header,
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1D5B79;
+    padding: 10px 20px;
+}
+
+.cont-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.logo img {
+    width: 190px;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.barra-busqueda input {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.barra-busqueda button {
+    padding: 5px 16px;
+    border: none;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.barra-busqueda img {
+    width: 20px;
+    height: 20px;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.iconos a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/* Barra de navegación 🦎🐊🦖 */
+nav {
+    background: #1D5B79;
+    margin-top: 15px;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    padding-bottom: 15px;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+
+}
+
+nav ul li #Acontacto:hover,
+#Apinturas:hover,
+#Aaccesorios:hover,
+#Aherramientas:hover,
+#Ausuarios:hover {
+    color: #FFC100;
+}
+
+nav ul li #Aopcion:hover {
+    color: #fff;
+    background: #FFC100;
+}
+
+
+/*🦖🐊🦎  Subcategoría Pinturas */
+nav>ul>li:hover .div-subcategoria-pinturas {
+    display: block;
+}
+
+.div-subcategoria-pinturas {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: none;
+    margin-top: 0;
+}
+
+
+
+/*🦎🐊🦖  Subcategoría Accesorios */
+nav>ul>li:hover .div-subcategoria-accesorios {
+    display: block;
+}
+
+.div-subcategoria-accesorios {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: none;
+    margin-top: 0;
+    margin-left: 20%;
+
+}
+
+/*🐊🦖🦎 Subcategoría Herramientas */
+
+nav>ul>li:hover .div-subcategoria-herramientas {
+    display: block;
+}
+
+.div-subcategoria-herramientas {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: none;
+    margin-top: 0;
+    margin-left: 45%;
+}
+
+
+/*🦎🦖🐊  Subcategorias usuarios*/
+
+nav>ul>li:hover .div-subcategoria-usuarios {
+    display: block;
+}
+
+.div-subcategoria-usuarios {
+    width: 200px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: none;
+    margin-top: 0;
+}
