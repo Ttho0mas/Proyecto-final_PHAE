@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo-p.css">
+    <link rel="stylesheet" href="estiloSN.css">
     <link rel="icon" href="\PintureriaArcoiris\icon-piar.png" type="image/x-icon">
     <title>Pie de pagina</title>
 </head>
@@ -71,7 +72,7 @@
     <hr class="footer-divisor">
       
     <div class="footer-aboutus">
-        <h3><a href="nosotros.html">PHAE 2024|  About us</a></h3>
+        <h3><a href="\Sobrenosotros_PHAE\Sobrenosotros.html">PHAE 2024|  About us</a></h3>
     </div>
 </footer>
 </body>
