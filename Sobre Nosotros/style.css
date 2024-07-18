@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  font-size: 1.2em;
+}
+
+.about-us-text p {
+  flex: 1;
+  text-align: right;
+}
+
+#logo-container {
+  flex: 0 0 200px;
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.services-list {
+  width: 100%;
+  max-width: 1200px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.service-item {
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.service-item:nth-child(odd) {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.service-item:nth-child(even) {
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+}
+
+#team-members {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3em;
+}
+
+.members-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex: 0 0 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.member-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.member-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#contact-info {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+.contact-details h4 {
+  margin: 5px 0;
+}
+
+#mission-vision {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+.mission,
+.vision {
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.mission {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.vision {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
