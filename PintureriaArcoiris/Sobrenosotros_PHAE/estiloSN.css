@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0 0 10px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.conte {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.conte_presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.descripcion {
+    width: 70%;
+}
+
+.descripcion p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 390px;
+    height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+.miembros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: #626262 2px solid;
+    background-color: #626262;
+    padding: 16px;
+    color: #000;
+}
+
+.miembro {
+    width: 45%;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.miembro h3, .miembro h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.contacto {
+    margin: 40px 0;
+}
+
+
+.mision_vision {
+    margin: 40px 0;
+}
+
+.mision_vision h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mision_vision p {
+    font-size: 16px;
+    line-height: 1.6;
+}
